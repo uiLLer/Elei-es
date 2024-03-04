@@ -5,6 +5,12 @@ public class Candidato {
     private int numero;
     private String cargo;
 
+    public Candidato(String nome, int numero, String cargo) {
+        this.nome = nome;
+        this.numero = numero;
+        this.cargo = cargo;
+    }
+
     public String getNome() {
         return nome;
     }
